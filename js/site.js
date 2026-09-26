@@ -24,7 +24,7 @@
       var row = document.createElement('article');
       row.className = 'krow rv';
       var html = '<header><div><h3>' + k.t + '</h3><p>' + k.d + '</p></div><div class="acts">' +
-        '<a class="btn fill" href="https://www.canva.com/d/' + k.canva + '" target="_blank" rel="noopener">View in Canva ↗</a>' +
+        '<a class="btn fill" href="https://www.canva.com/d/' + k.canva + '" target="_blank" rel="noopener">View in Canva · p. ' + k.pages + ' ↗</a>' +
         '<a class="btn" href="assets/pdf/' + brand + '-' + k.dir + '.pdf" target="_blank" rel="noopener">PDF</a></div></header>' +
         '<div class="strip" style="--h:' + k.h + 'px">';
       for (var i = 1; i <= k.n; i++) {
